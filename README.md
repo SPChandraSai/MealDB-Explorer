@@ -35,7 +35,7 @@ This project fulfills the **TheMealDB Explorer assignment** requirements by impl
 - React (Vite)
 - React Router
 - TailwindCSS
-- shadcn/ui components
+- radix/ui components
 - Lucide Icons
 
 ### **Backend**
@@ -50,7 +50,7 @@ This project fulfills the **TheMealDB Explorer assignment** requirements by impl
 ---
 
 ## 📁 Project Structure
-
+```
 📦 TheMealDB Explorer
 │
 ├── Backend/
@@ -75,18 +75,11 @@ This project fulfills the **TheMealDB Explorer assignment** requirements by impl
 │ ├── utils/
 │ ├── App.jsx
 │ └── main.jsx
-
+```
 
 ---
 
 ## 🔌 Backend API Documentation
-
-Base URL:
-
-```
-http://localhost:5000/api/meals
-```
-
 
 ### **GET /categories**
 Returns list of meal categories.
@@ -130,7 +123,7 @@ Caching reduces API calls and improves performance.
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/SPChandraSai/MealDB-Explorer.git
-cd TheMealDB-Explorer
+cd MealDB-Explorer
 ```
 
 # 🛠️ Backend Setup
